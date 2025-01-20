@@ -2951,6 +2951,10 @@
 		(uuid "35c10d23-8167-400e-9f93-b73ce42bed17")
 	)
 	(no_connect
+		(at 60.96 138.43)
+		(uuid "40621fcf-72f2-4f66-aec0-11361875e970")
+	)
+	(no_connect
 		(at 137.16 54.61)
 		(uuid "4707a3df-f0c0-49fc-8278-9981d508d702")
 	)
@@ -3105,6 +3109,16 @@
 			(type default)
 		)
 		(uuid "23184d20-6b0c-4580-8a9a-0539dfda06ff")
+	)
+	(wire
+		(pts
+			(xy 60.96 140.97) (xy 63.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2404844e-9a20-4688-b678-ea423fa5362e")
 	)
 	(wire
 		(pts
@@ -3765,6 +3779,16 @@
 			(type default)
 		)
 		(uuid "f49fecdf-ca2f-4642-baa5-74a471a0a7e8")
+	)
+	(wire
+		(pts
+			(xy 63.5 140.97) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71a095e-52b5-4f4d-b9ad-abbfdf2b0bee")
 	)
 	(wire
 		(pts
@@ -5228,6 +5252,72 @@
 			(project "Kegerator"
 				(path "/0d8fcf03-5d01-4d3e-974a-da58a94c5b7b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7300ed6a-0736-4264-a759-a8a160690aab")
+		(property "Reference" "#PWR013"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14bb44e1-dcd4-4c33-8f46-cb633d0e9baf")
+		)
+		(instances
+			(project "Kegerator"
+				(path "/0d8fcf03-5d01-4d3e-974a-da58a94c5b7b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
