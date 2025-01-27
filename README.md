@@ -2,8 +2,8 @@
 
 I acquired a Keg Master Series 3 kegerator a while ago. While it's a nice fridge, it was not without it's issues.
 
-1. If power was cut, it would revert back to a default temperature (0.4°C degrees if I remember correctly), and displaying fahrenheit (why!). Beyond the obviuos issue of it forgetting the set temperature, this was more an issue because:
-2. It was running code. Any lower than 0.4°C and the kegerator is dangerously close to below freezing. I've managed to freeze a keg and numerous bottles.
+1. If power was cut, it would revert back to a default temperature (0.4°C degrees if I remember correctly), and displaying fahrenheit (why!). Beyond the obvious issue of it forgetting the set temperature, this was more an issue because:
+2. It was running cold. Any lower than 0.4°C and the kegerator is dangerously close to below freezing. I've managed to freeze a keg and numerous bottles.
 
 So, the obvious thing to do was to make a new controller!
 
