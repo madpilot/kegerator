@@ -7,7 +7,11 @@ I acquired a Keg Master Series 3 kegerator a while ago. While it's a nice fridge
 
 So, the obvious thing to do was to make a new controller!
 
-This controller has a ESP32, as well as a 128x32 i²c LCD. I've replaced the thermistor with a Dallas ds18b20 temperature sensor (in parasitic mode so I can reuse the two-wires), and added a line for a heater relay so the board can be reused for a fermenter.
+This controller has a ESP32, as well as a 128x32 i²c LCD. 
+
+I've replaced the thermistor with a Dallas ds18b20 temperature sensor (in parasitic mode so I can reuse the two-wires), and added a line for a heater relay so the board can be reused for a fermenter.
+
+The front buttons are wired up as well. The esphome firmware I use switches out the "unit" button with a on/off button.
 
 ## Example esphome configuration
 
